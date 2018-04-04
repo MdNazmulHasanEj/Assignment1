@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.flashchat.nahid.assignment1.MainActivity">
+    <item
+        android:id="@+id/action_listview"
+        android:orderInCategory="100"
+        android:title="List view"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_bar_activity_content"
+        android:orderInCategory="100"
+        android:title="Capture photo"
+        app:showAsAction="ifRoom" />
+</menu>

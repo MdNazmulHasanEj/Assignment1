@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.flashchat.nahid.assignment1.EventListActivity"
+    tools:showIn="@layout/activity_event_list">
+
+    <TextView
+        android:text="Business List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitle"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:textSize="20sp"
+        android:onClick="gotoEvent_OCR"
+        android:layout_centerHorizontal="true"
+        android:text="Add"
+         />
+
+    <ListView
+        android:id="@+id/listofstuff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="11dp" />
+    //eta sorao
+
+</RelativeLayout>
